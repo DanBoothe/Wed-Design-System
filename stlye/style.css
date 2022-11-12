@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
@@ -16,6 +18,11 @@ header {
     padding: .5rem 2.5rem;
 }
 
+.section-head {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
 .section-layout{
     display: flex;
     flex-wrap: wrap;
@@ -24,10 +31,57 @@ header {
 .color-blocks {
     border: 1px solid #000;
     margin: .5rem;
-    padding: 1.25rem 10rem;
+    padding: .75rem 0;
+    width:25rem;
     text-align: center;
 }
 
 .color-blocks h3 {
     font-size: 1.25rem;
+}
+
+#color-one {
+    background-color: #000;
+    color: #BFBFBF;
+}
+
+#color-two {
+    background-color: #404040;
+    color: #fff;
+}
+
+#color-three {
+    background-color: #808080;
+    color: #fff;
+}
+
+#color-four {
+    background-color: #BFBFBF;
+    color: #404040;
+}
+
+.font-blocks {
+    width: 40rem;;
+    margin: .5rem;
+}
+
+.font-blocks ul li {
+    margin-left: 2rem;
+}
+
+#bold {
+    font-weight:bold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+.type-style-blocks {
+    margin:  1.5rem .5rem;
+    line-height: 1.5rem;
+}
+
+.type-style-blocks ul li {
+    margin-left: 2rem;
 }
