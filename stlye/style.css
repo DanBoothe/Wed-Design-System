@@ -2,3 +2,32 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    margin: 1.5rem 3rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.section-container {
+    border: 1px solid #000;
+    border-radius: .75rem;
+    margin:  1.5rem 3rem;
+    padding: .5rem 2.5rem;
+}
+
+.section-layout{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-blocks {
+    border: 1px solid #000;
+    margin: .5rem;
+    padding: 1.25rem 10rem;
+    text-align: center;
+}
+
+.color-blocks h3 {
+    font-size: 1.25rem;
+}
